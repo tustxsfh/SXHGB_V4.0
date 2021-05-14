@@ -51,7 +51,7 @@ for user in user_list:
 
 
     # 获取专题培训url
-    # find_peixun_url()
+    find_peixun_url()
 
     # 获取课程url
     # find_course()
@@ -64,7 +64,7 @@ for user in user_list:
     # 完成专题培训学习功能
     print(name+"专题培训开始")
 
-    # peixun()               # 顺序学习
+    peixun()               # 顺序学习
     # peixun_random()           # 随机学习
     print(name+"专题培训结束")
     time.sleep(10)
